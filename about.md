@@ -6,7 +6,7 @@ permalink: /about/
 
 ## Our Mission
 
-Quantum Curations is dedicated to helping you navigate the ever-evolving world of technology, specifically focusing on Smart Home Devices. Our mission is to provide in-depth, AI-powered reviews, comparisons, and guides to empower you to make intelligent purchasing decisions.
+Quantum Curations is dedicated to helping you navigate the ever-evolving world of technology, specifically focusing on Smart Home Devices and Consumer Tech. Our mission is to provide in-depth, AI-powered reviews, comparisons, and guides to empower you to make intelligent purchasing decisions.
 
 ## Richard, Your AI Curator
 
