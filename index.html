@@ -1,0 +1,295 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quantum Curations - Curated Insights for a Smarter Future</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Oswald:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-dark-bg: #1A1A1A; /* Very Dark Grey */
+            --secondary-dark-bg: #2C2C2C; /* Slightly Lighter Dark Grey/Brown */
+            --maroon-accent: #800000; /* Classic Maroon */
+            --maroon-light: #A52A2A; /* Rich Burgundy Brown */
+            --silver-text: #C0C0C0; /* Standard Silver */
+            --light-grey-text: #E0E0E0; /* Light Grey for main text */
+            --deep-brown-accent: #4B3B3B; /* Deep, warm brown for subtle contrast */
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: var(--primary-dark-bg);
+            color: var(--light-grey-text);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background-color: var(--secondary-dark-bg);
+            padding: 15px 0;
+            border-bottom: 2px solid var(--maroon-accent);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: 'Oswald', sans-serif;
+            font-size: 1.8em;
+            color: var(--silver-text);
+            text-decoration: none;
+            letter-spacing: 1px;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 30px;
+        }
+
+        nav ul li a {
+            color: var(--silver-text);
+            text-decoration: none;
+            font-weight: 400;
+            transition: color 0.3s ease, border-bottom 0.3s ease;
+            padding-bottom: 5px;
+        }
+
+        nav ul li a:hover,
+        nav ul li a.active {
+            color: var(--maroon-light);
+            border-bottom: 2px solid var(--maroon-light);
+        }
+
+        .hero {
+            background: linear-gradient(rgba(26, 26, 26, 0.8), rgba(26, 26, 26, 0.8)), url('https://via.placeholder.com/1500x500/111111/4B3B3B?text=Abstract+Tech+Background') no-repeat center center/cover;
+            color: var(--light-grey-text);
+            text-align: center;
+            padding: 100px 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 400px;
+        }
+
+        .hero h1 {
+            font-family: 'Oswald', sans-serif;
+            font-size: 3.5em;
+            color: var(--silver-text);
+            margin-bottom: 10px;
+            text-shadow: 0 0 10px rgba(128, 0, 0, 0.5);
+        }
+
+        .hero p {
+            font-size: 1.2em;
+            max-width: 800px;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            background-color: var(--maroon-accent);
+            color: var(--silver-text);
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+        }
+
+        .btn:hover {
+            background-color: var(--maroon-light);
+            transform: translateY(-2px);
+        }
+
+        .section-title {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 2.2em;
+            color: var(--silver-text);
+            text-align: center;
+            margin-top: 60px;
+            margin-bottom: 40px;
+            border-bottom: 1px solid var(--deep-brown-accent);
+            padding-bottom: 15px;
+        }
+
+        .blog-post-card {
+            background-color: var(--secondary-dark-bg);
+            border-radius: 8px;
+            overflow: hidden;
+            margin-bottom: 30px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .blog-post-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+        }
+
+        .blog-post-card img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .blog-post-card-content {
+            padding: 25px;
+        }
+
+        .blog-post-card-content h2 {
+            font-family: 'Oswald', sans-serif;
+            font-size: 1.8em;
+            color: var(--silver-text);
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+
+        .blog-post-card-content p {
+            color: var(--light-grey-text);
+            font-size: 0.95em;
+            margin-bottom: 20px;
+        }
+
+        .read-more {
+            color: var(--maroon-accent);
+            text-decoration: none;
+            font-weight: 700;
+            transition: color 0.3s ease;
+        }
+
+        .read-more:hover {
+            color: var(--maroon-light);
+            text-decoration: underline;
+        }
+
+        .about-section, .mission-section {
+            background-color: var(--secondary-dark-bg);
+            border-radius: 8px;
+            padding: 40px;
+            margin-top: 60px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .about-section h2, .mission-section h2 {
+            font-family: 'Montserrat', sans-serif;
+            color: var(--silver-text);
+            font-size: 2em;
+            margin-top: 0;
+            border-bottom: 1px solid var(--deep-brown-accent);
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        .about-section p, .mission-section p {
+            font-size: 1em;
+            color: var(--light-grey-text);
+        }
+        
+        footer {
+            background-color: var(--deep-brown-accent);
+            color: var(--silver-text);
+            text-align: center;
+            padding: 30px 20px;
+            margin-top: 60px;
+            font-size: 0.9em;
+            border-top: 2px solid var(--maroon-accent);
+        }
+
+        footer .social-icons a {
+            color: var(--silver-text);
+            margin: 0 10px;
+            font-size: 1.5em;
+            transition: color 0.3s ease;
+            text-decoration: none;
+        }
+
+        footer .social-icons a:hover {
+            color: var(--maroon-light);
+        }
+
+        footer p {
+            margin: 10px 0 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <a href="#" class="logo">Quantum Curations</a>
+            <nav>
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">Reviews</a></li>
+                    <li><a href="#">Guides</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Curated Insights for a Smarter Future</h1>
+            <p>In-depth, AI-powered reviews and guides across the latest consumer technology.</p>
+            <a href="#featured-post" class="btn">Explore Reviews</a>
+        </section>
+
+        <section id="featured-post" class="container">
+            <h2 class="section-title">Latest Insights</h2>
+            <div class="blog-post-card">
+                <img src="https://via.placeholder.com/1200x300/2C2C2C/C0C0C0?text=Featured+Image" alt="Featured blog post image">
+                <div class="blog-post-card-content">
+                    <h2>Transform Your Home: AI-Powered Cleaning Meets Bioengineered Air</h2>
+                    <p>Welcome to Quantum Curations! We're dedicated to bringing you curated insights and smart choices for a smarter future, with in-depth, AI-powered reviews and guides across the latest consumer technology. Today, we're diving into two cutting-edge innovations that are reshaping how we approach home living: the intelligent clean of the Roborock Qrevo Curv robot vacuum and the revolutionary air purification of the Neoplants Neo PX Pothos.</p>
+                    <a href="_posts/2026-03-13-ai-cleaning-bioengineered-air.md" class="read-more">Read Full Article &raquo;</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="container about-section">
+            <h2>About Quantum Curations</h2>
+            <p>At Quantum Curations, we are your trusted source for in-depth, AI-powered reviews and guides across the latest consumer technology. Our mission is to cut through the noise, providing you with smart, curated insights to help you make intelligent purchasing decisions. Whether you’re upgrading your smart home, seeking cutting-edge PC components, or exploring new gadgets, we’re here to empower your choices for a smarter future. We combine rigorous analysis with a passion for innovation to bring you content you can trust.</p>
+        </section>
+
+        <section class="container mission-section">
+            <h2>Our Mission</h2>
+            <p>Our mission is to provide AI-powered reviews and guides on consumer technology, helping our users make intelligent purchasing decisions and fostering a "smarter future." We aim to be the definitive resource for anyone seeking to understand and invest in the next generation of smart living and tech innovation.</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="social-icons">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <p>&copy; 2026 Quantum Curations. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
