@@ -6,21 +6,21 @@ Welcome to Quantum Curations! We're dedicated to bringing you curated insights a
 
 Imagine a home where floors are always spotless, cleaned with an intelligence that adapts to your unique space. That's the promise of the Roborock Qrevo Curv, a truly advanced AI-powered robot vacuum cleaner that redefines autonomous cleaning.
 
-**[IMAGE PLACEHOLDER: Please insert a high-quality image of the Roborock Qrevo Curv robot vacuum, ideally showing its multifunctional dock. You can upload an image to your GitHub repository (e.g., in an `assets` folder) and replace this text with its relative path or a direct image URL. Example: `![Roborock Qrevo Curv](assets/roborock-qrevo-curv.jpg)`]**
+![Roborock Qrevo Curv Robot Vacuum](/assets/roborock-qrevo-curv.jpg)
 
 This isn't just another robot vacuum; it's a master of its domain. The Qrevo Curv features cutting-edge AI navigation and obstacle avoidance, allowing it to expertly map your home, identify different floor types, and navigate around forgotten toys or pet messes with precision. Its self-emptying and self-washing dock ensures minimal intervention from you, handling dirt disposal and mop cleaning automatically. From tackling stubborn pet hair to deep cleaning carpets and hard floors, the Qrevo Curv learns and optimizes its cleaning routes for unparalleled efficiency. It's a smarter choice for a consistently spotless home, freeing up your time for what truly matters.
 
-**Ready to experience the future of clean?** [Check out the Roborock Qrevo Curv on Amazon!](YOUR_AMAZON_ASSOCIATES_LINK_ROBOROCK_HERE_ID_quantumcura00-20)
+**Ready to experience the future of clean?** [Check out the Roborock Qrevo CurvX on Amazon!](https://www.amazon.com/dp/B0DX1DQKMD/?tag=quantumcura00-20)
 
 ## The Living Air Purifier: Neoplants Neo PX Pothos
 
 Beyond surface cleanliness, the quality of the air we breathe indoors is paramount for our health and well-being. Enter the Neoplants Neo PX Pothos, a groundbreaking bioengineered air purifier that represents a truly innovative step towards a healthier smart home.
 
-**[IMAGE PLACEHOLDER: Please insert a high-quality image of the Neoplants Neo PX Pothos plant. You can upload an image to your GitHub repository (e.g., in an `assets` folder) and replace this text with its relative path or a direct image URL. Example: `![Neoplants Neo PX Pothos](assets/neoplants-pothos.jpg)`]**
+![Neoplants Neo PX Pothos Bioengineered Air Purifying Plant](/assets/neoplants-pothos.jpg)
 
 This isn't just a decorative plant; it's a living air purification system. The Neoplants Neo PX Pothos has been bioengineered to be significantly more efficient at removing indoor air pollutants than regular plants, boasting claims of up to 30 times greater purification power. It actively works to break down common VOCs (Volatile Organic Compounds) like formaldehyde and benzene, transforming them into harmless byproducts. It's a beautiful, natural, and highly effective way to enhance your indoor air quality, contributing to a truly smart and healthy living environment. Embrace innovation for a healthier future for you and your family.
 
-**Breathe cleaner, live smarter.** [Learn more about the Neoplants Neo PX Pothos!](YOUR_AMAZON_ASSOCIATES_LINK_NEOPLANTS_HERE_ID_quantumcura00-20_OR_DIRECT_LINK)
+**Breathe cleaner, live smarter.** [Learn more about the Neoplants Neo PX Pothos on their official website!](https://neoplants.com/product/neo-px)
 
 ## Synergy for a Smarter, Healthier Home
 
